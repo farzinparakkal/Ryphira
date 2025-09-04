@@ -47,11 +47,6 @@ const ConnectUs = () => {
       icon: '✉️',
       title: 'Email',
       details: ['ryphira.official@gmail.com']
-    },
-    {
-      icon: '🌐',
-      title: 'Website',
-      details: ['www.ryphira.com', 'Follow us on social media']
     }
   ]
 
