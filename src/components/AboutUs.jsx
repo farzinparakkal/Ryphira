@@ -65,7 +65,7 @@ const AboutUs = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <div className="stat-number">50+</div>
-                <div className="stat-label">Projects Delivered</div>
+                <div className="about-stat-label">Projects Delivered</div>
               </motion.div>
               
               <motion.div 
@@ -74,7 +74,7 @@ const AboutUs = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <div className="stat-number">500+</div>
-                <div className="stat-label">Students Trained</div>
+                <div className="about-stat-label">Students Trained</div>
               </motion.div>
               
               <motion.div 
@@ -82,8 +82,8 @@ const AboutUs = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <div className="stat-number">5+</div>
-                <div className="stat-label">Years Experience</div>
+                <div className="stat-number">4+</div>
+                <div className="about-stat-label">Years Experience</div>
               </motion.div>
               
               <motion.div 
@@ -92,7 +92,7 @@ const AboutUs = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <div className="stat-number">100%</div>
-                <div className="stat-label">Client Satisfaction</div>
+                <div className="about-stat-label">Client Satisfaction</div>
               </motion.div>
             </div>
 
