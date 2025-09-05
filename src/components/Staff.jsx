@@ -189,7 +189,7 @@ const Staff = () => {
             <div className="team-stat">
               <div className="stat-icon">⭐</div>
               <div className="stat-info">
-                <div className="stat-number">3</div>
+                <div className="stat-number">4</div>
                 <div className="stat-label">Senior Developers</div>
               </div>
             </div>
