@@ -12,10 +12,10 @@ const Affiliates = () => {
       id: 2,
       image: "msme.jpeg"
     },
-    // {
-    //   id: 3,
-    //   image: "start.png"
-    // }
+    {
+      id: 3,
+      image: "start.png"
+    }
   ]
 
   return (
