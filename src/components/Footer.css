@@ -265,3 +265,124 @@
     justify-content: center;
   }
 }
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.modal-card {
+  width: 100%;
+  max-width: 560px;
+  max-height: 70vh;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(135deg, #8BC34A 0%, #689F38 100%);
+  color: white;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.modal-close {
+  appearance: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.modal-close:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.modal-body {
+  padding: 1rem 1rem 0.5rem;
+  color: #2b2b2b;
+  max-height: calc(70vh - 56px - 56px);
+  overflow-y: auto;
+}
+
+.modal-lead {
+  margin: 0 0 0.75rem 0;
+  color: #444;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.modal-list {
+  margin: 0.25rem 0 1rem 1.25rem;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.modal-list li {
+  margin-bottom: 0.5rem;
+}
+
+.modal-divider {
+  height: 1px;
+  background: #eee;
+  margin: 1rem 0;
+}
+
+.section-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #2e7d32;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 0 1rem 1rem;
+}
+
+.btn-primary {
+  appearance: none;
+  border: none;
+  background: linear-gradient(135deg, #8BC34A 0%, #689F38 100%);
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(104, 159, 56, 0.35);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #689F38 0%, #8BC34A 100%);
+}
+
+@media (max-width: 480px) {
+  .modal-card {
+    max-width: 100%;
+  }
+}
