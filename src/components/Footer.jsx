@@ -37,6 +37,11 @@ const Footer = () => {
         'Accounts must be secured by you; notify us immediately of any unauthorized use.',
         'Certain features may require separate agreements or fees.'
       ]
+    },
+    pricing: {
+      title: 'Pricing',
+      lead: 'Yes, for that just mention in home page that our pricing starts from 2999/- INR to 9999/- INR.',
+      bullets: []
     }
   }
 
@@ -229,6 +234,7 @@ const Footer = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
             >
+              <a href="#" onClick={(e) => { e.preventDefault(); openModal('pricing') }}>Pricing</a>
               <a href="#" onClick={(e) => { e.preventDefault(); openModal('privacy') }}>Privacy Policy</a>
               <a href="#" onClick={(e) => { e.preventDefault(); openModal('terms') }}>Terms of Service</a>
               <a href="#">Cookie Policy</a>
