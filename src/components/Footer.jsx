@@ -40,7 +40,7 @@ const Footer = () => {
     },
     pricing: {
       title: 'Pricing',
-      lead: 'Yes, for that just mention in home page that our pricing starts from 2999/- INR to 9999/- INR.',
+      lead: 'Pricing starts from ₹2,999',
       bullets: []
     }
   }
